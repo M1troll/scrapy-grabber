@@ -10,3 +10,7 @@ isort
 # drawing inspiration from various sources to arrive at a powerful & clean feature set.
 # http://www.pyinvoke.org/
 invoke
+
+# iPython tools
+ipdb
+ipython
