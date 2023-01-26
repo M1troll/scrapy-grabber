@@ -3,10 +3,9 @@ from scrapy.http import TextResponse
 
 
 class QuotesSpider(scrapy.Spider):
+    """Parse all quotes."""
     name = "quotes"
-    start_urls = [
-        'https://quotes.toscrape.com/page/1/',
-    ]
+    start_urls = ['https://quotes.toscrape.com/page/1/']
 
     # Equal to `start_urls`
     # def start_requests(self):

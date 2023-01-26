@@ -1,9 +1,9 @@
 import scrapy
 
 
-class AuthorSpider(scrapy.Spider):
-    name = 'author'
-
+class AuthorsSpider(scrapy.Spider):
+    """Parse all authors of quotes."""
+    name = 'authors'
     start_urls = ['https://quotes.toscrape.com/']
 
     def parse(self, response):
