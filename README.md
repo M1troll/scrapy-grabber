@@ -1,7 +1,7 @@
 # scrapy-grabber
 My first scrapy-grabber
 
-# We use [invoke](https://pypi.org/project/invoke/).
+# We use [invoke](https://pypi.org/project/invoke/)
 
 It provide next shortcuts: 
 
